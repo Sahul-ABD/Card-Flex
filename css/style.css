@@ -1,0 +1,44 @@
+body {
+  border: 3px solid green;
+  box-sizing: border-box;
+  background-color: #f1f0e8;
+  width: 400px;
+  height: 450px;
+  margin-left: 500px;
+  box-shadow: 15px 15px 5px #62a373;
+}
+header {
+  margin-bottom: 5px;
+}
+#container {
+  position: relative;
+}
+header img {
+  width: 394px;
+  height: 200px;
+}
+.text {
+  position: absolute;
+  top: 9%;
+  left: 35%;
+  color: #fcd14d;
+  font-weight: bolder;
+}
+/* main*/
+article {
+  color: green;
+}
+/* main-ends */
+/* footer */
+
+footer img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+
+  margin-top: 10px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
