@@ -14,12 +14,12 @@ body {
   margin-top: 80px;
   text-align: justify;
   background-color: whitesmoke;
-  box-shadow: 2px 2px 20px rgba(61, 139, 84, 0.9);
+  box-shadow: 2px 2px 20px black;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  cursor: move;
+  cursor: pointer;
   transition: 0.5s ease;
 }
 /* header */
@@ -30,29 +30,30 @@ body {
   height: 200px;
 }
 #card:hover {
-  transform: scale(1.1);
-  box-shadow: 5px 5px 15px rgba(137, 245, 135, 0.9);
+  transform: scale(1.3);
 }
 header h1 {
   margin: 0px;
   text-align: center;
-  color: rgb(19, 243, 75);
   text-transform: uppercase;
   font-weight: bolder;
-  text-decoration: underline;
+  font-size: 2.5em;
+  color: #353c2e;
+  opacity: 0.9;
 }
 
 /* header-ends */
 /* main */
 main {
-  margin-top: 12px;
+  margin-top: 2px;
 }
 article {
   text-align: justify;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
-  background-color: lightgreen;
   padding: 5px;
+  font-size: 1.2em;
+  opacity: 0.9;
 }
 /*main-ends */
 /* footer */
@@ -60,34 +61,29 @@ article {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60px;
-  margin-top: 15px;
+  height: 80px;
+  margin-top: 5px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  background-color: #c4c4ac;
 }
 
 .img-1 {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
 }
-.img-1:hover {
-  transform: scale(2.1);
-}
+
 .img-2 {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
 }
-.img-2:hover {
-  transform: scale(2.1);
-}
+
 .img-3 {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
 }
-.img-3:hover {
-  transform: scale(2.1);
-}
+
 /* footer-ends */
